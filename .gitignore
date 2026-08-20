@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv
+
+# Sensitive Credentials & Cookies (DO NOT COMMIT)
+account.json
+account.txt
+youtube_cookies.json
+youtube_browser_profile/
+client_secret.json
+token.json
+.env
+
+# Debug & Temporary artifacts
+debug_*
+scratch_*
+*.log
+page_dump.html
+
+# OS metadata
+.DS_Store
+Thumbs.db
