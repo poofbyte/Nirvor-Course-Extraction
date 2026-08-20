@@ -1,40 +1,82 @@
-# Nirvor Course & Playlist Toolkit
+# 🎓 Nirvor Course & YouTube Playlist Toolkit
 
-A fast Python tool suite for extracting course lectures, YouTube class links, and Google Drive materials from Nirvor, and automatically saving them into YouTube playlists.
+A high-performance Python toolkit to extract course lectures, YouTube class links, and Google Drive materials from **Nirvor (nirvor.net)**, and automatically save them into **complete YouTube playlists** on your YouTube account.
 
-## Features
+---
 
-1. **Course Link Extractor (`app.py`)**:
-   - Queries Nirvor's internal API to fetch all enrolled courses, folders, and lectures in under 5 seconds.
-   - Extracts all YouTube video URLs, Google Drive notes, and PDF materials.
-   - Generates structured Markdown (`nirvor_courses_summary.md`), CSV spreadsheet (`nirvor_links.csv`), and JSON (`nirvor_data.json`).
-   - Zero media downloads to the computer.
+## ⚡ Key Features
 
-2. **YouTube Playlist Creator (`create_youtube_playlist.py`)**:
-   - Uses your `youtube_cookies.json` to automatically create complete YouTube playlists for any selected course.
-   - Adds 100% of all lectures/videos in exact order into your YouTube library.
-   - No browser popups or manual login needed.
+1. **Fast Course Link Extractor (`app.py`)**:
+   - **Direct REST API Access:** Queries Nirvor's internal API (`/api/v2/lecture/course/...`) directly using your session token.
+   - **Extracts All Resources:** Grabs YouTube class videos, Google Drive notes/folders, lecture sheet PDFs, and live class links.
+   - **Clean Output Formats:** Generates:
+     - `nirvor_courses_summary.md` (Organized Markdown catalog)
+     - `nirvor_links.csv` (Spreadsheet with 180+ lectures, ready for Excel/Google Sheets)
+     - `nirvor_data.json` (Complete structured JSON data)
+   - **Zero Disk Downloads:** Only extracts and organizes links; downloads no media files.
 
-## Setup & Usage
+2. **1-Click YouTube Playlist Creator (`create_youtube_playlist.py`)**:
+   - **Cookie-Based Instant API:** Uses `youtube_cookies.json` to authenticate silently with YouTube's internal API.
+   - **No Browser Popups:** Creates playlists and adds all videos in seconds in the background.
+   - **100% Complete Playlists:** Adds all 20, 50, 100+ videos in exact curriculum order under the course title.
 
-### 1. Requirements
+---
+
+## 📁 Project Structure
+
+```text
+├── app.py                      # Course and lecture link extractor
+├── create_youtube_playlist.py  # Automated YouTube playlist creator
+├── nirvor_courses_summary.md   # Generated Markdown catalog
+├── nirvor_links.csv            # Generated CSV spreadsheet
+├── nirvor_data.json            # Generated raw JSON data
+├── account.json                # [Ignored] Nirvor session cookies
+├── youtube_cookies.json        # [Ignored] YouTube session cookies
+├── .gitignore                  # Keeps your credentials safe
+└── README.md                   # Project documentation
+```
+
+---
+
+## 🚀 Getting Started
+
+### 1. Prerequisites
+Install Python (3.10+) and required dependencies:
 ```bash
 pip install requests
 ```
 
-### 2. Authentication
-- Place your exported Nirvor cookies in `account.json`.
-- Place your exported YouTube cookies in `youtube_cookies.json`.
+### 2. Configuration & Authentication
+Place your exported cookies in the project directory:
+* **`account.json`**: Exported cookies from your logged-in browser session on `nirvor.net`.
+* **`youtube_cookies.json`**: Exported cookies from your logged-in browser session on `youtube.com`.
 
-*(Note: Cookies and credentials are automatically ignored by `.gitignore` and never committed).*
+> 🔒 **Security Note:** Both `account.json` and `youtube_cookies.json` are listed in `.gitignore` and are **never committed or pushed to Git**.
 
-### 3. Extract Links
+---
+
+## 📖 Usage Guide
+
+### Step 1: Extract All Course Links
+Run:
 ```bash
 python app.py
 ```
+* Queries Nirvor live database.
+* Generates `nirvor_courses_summary.md`, `nirvor_links.csv`, and `nirvor_data.json`.
+* Re-run anytime new lectures or courses are added to automatically update your files.
 
-### 4. Create YouTube Playlists
+### Step 2: Create YouTube Playlists
+Run:
 ```bash
 python create_youtube_playlist.py
 ```
-Select the course number to automatically create the playlist on your YouTube account.
+* Displays an interactive menu of all your enrolled courses.
+* Choose a specific course number (e.g. `3` for *Only BUP Course*) or type `A` for all courses.
+* The script instantly creates the playlist(s) and adds all lecture videos directly into your YouTube library.
+* Check your playlists at [youtube.com/feed/playlists](https://www.youtube.com/feed/playlists).
+
+---
+
+## 🛡️ License & Disclaimer
+This tool is for personal study organization only. All video and lecture content belongs to the respective instructors and course providers on Nirvor.
