@@ -354,8 +354,14 @@ def export_markdown(courses: list[dict]):
         lines.append("---")
         lines.append("")
 
-    OUTPUT_MD.write_text("\n".join(lines), encoding="utf-8")
-    print(f"[✓] Saved Markdown summary -> {OUTPUT_MD.resolve()}")
+    try:
+        OUTPUT_MD.write_text("\n".join(lines), encoding="utf-8")
+        print(f"[✓] Saved Markdown summary -> {OUTPUT_MD.resolve()}")
+    except PermissionError:
+        alt_file = OUTPUT_MD.with_name(f"{OUTPUT_MD.stem}_new.md")
+        alt_file.write_text("\n".join(lines), encoding="utf-8")
+        print(f"[!] Warning: '{OUTPUT_MD.name}' is currently open in another program.")
+        print(f"[✓] Saved updated Markdown to -> {alt_file.resolve()}")
 
 
 def export_csv(courses: list[dict]):
@@ -391,34 +397,48 @@ def export_csv(courses: list[dict]):
         for root in course["tree"]:
             traverse(root, "")
 
-    with OUTPUT_CSV.open("w", encoding="utf-8-sig", newline="") as f:
-        fieldnames = [
-            "Course Name",
-            "Folder / Section",
-            "Lecture Title",
-            "YouTube URL",
-            "YouTube Video ID",
-            "Google Drive / Notes URL",
-            "PDF URL",
-            "Other Material URL",
-            "Live Class URL",
-            "Lock Status",
-            "Course ID",
-        ]
-        writer = csv.DictWriter(f, fieldnames=fieldnames)
-        writer.writeheader()
-        writer.writerows(rows)
+    fieldnames = [
+        "Course Name",
+        "Folder / Section",
+        "Lecture Title",
+        "YouTube URL",
+        "YouTube Video ID",
+        "Google Drive / Notes URL",
+        "PDF URL",
+        "Other Material URL",
+        "Live Class URL",
+        "Lock Status",
+        "Course ID",
+    ]
 
-    print(f"[✓] Saved CSV table -> {OUTPUT_CSV.resolve()} ({len(rows)} entries)")
+    try:
+        with OUTPUT_CSV.open("w", encoding="utf-8-sig", newline="") as f:
+            writer = csv.DictWriter(f, fieldnames=fieldnames)
+            writer.writeheader()
+            writer.writerows(rows)
+        print(f"[✓] Saved CSV table -> {OUTPUT_CSV.resolve()} ({len(rows)} entries)")
+    except PermissionError:
+        alt_file = OUTPUT_CSV.with_name(f"{OUTPUT_CSV.stem}_new.csv")
+        with alt_file.open("w", encoding="utf-8-sig", newline="") as f:
+            writer = csv.DictWriter(f, fieldnames=fieldnames)
+            writer.writeheader()
+            writer.writerows(rows)
+        print(f"[!] Notice: '{OUTPUT_CSV.name}' is currently open in Excel / another app.")
+        print(f"[✓] Saved updated CSV to -> {alt_file.resolve()} ({len(rows)} entries)")
+        print(f"    (Close Excel to overwrite the main '{OUTPUT_CSV.name}' directly next time)")
 
 
 def export_json(courses: list[dict]):
     """Exports structured data to JSON."""
-    OUTPUT_JSON.write_text(
-        json.dumps(courses, ensure_ascii=False, indent=2),
-        encoding="utf-8"
-    )
-    print(f"[✓] Saved JSON data -> {OUTPUT_JSON.resolve()}")
+    data_str = json.dumps(courses, ensure_ascii=False, indent=2)
+    try:
+        OUTPUT_JSON.write_text(data_str, encoding="utf-8")
+        print(f"[✓] Saved JSON data -> {OUTPUT_JSON.resolve()}")
+    except PermissionError:
+        alt_file = OUTPUT_JSON.with_name(f"{OUTPUT_JSON.stem}_new.json")
+        alt_file.write_text(data_str, encoding="utf-8")
+        print(f"[!] Warning: '{OUTPUT_JSON.name}' is currently open in another program.")
+        print(f"[✓] Saved updated JSON to -> {alt_file.resolve()}")
 
 
 def main():
