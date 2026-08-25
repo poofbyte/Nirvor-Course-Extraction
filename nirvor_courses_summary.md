@@ -8,10 +8,10 @@
 
 **Class Routine PDF:** [Open Routine PDF](https://res.cloudinary.com/dxyckwlsn/raw/upload/v1784295852/2nd-Time-Routine-2026-27-Live-And-Exam-Batch--B-UN-1784295850894.pdf.pdf)
 
-- **Total Videos:** 56
-- **Total Material Links:** 40
+- **Total Videos:** 68
+- **Total Material Links:** 42
 - 🎬 **[Open & Save Full Playlist on YouTube (Part 1)](https://www.youtube.com/watch_videos?video_ids=p8LmiVnknIo,OJOrYi-OPXI,VhzvQGWUjsA,j8V8R5UkcR0,VIkxroK9OIM,leNz_Cg9Zwg,DvbTfqjf2m4,qEe9dPHs79U,444V4xv3-Js,y71jzOy5_fE,S0ltDjcuc0U,AdvA3SW9u7g,B-4SLSHFhkc,nUzYWFs2m90,6qPGi5R9ZU4,wdfmREetnaU,U_lf_3xCxeo,_DGMOgNHpNA,eXR8q17Xxa4,H0JAUC5I1jk,h3Cv2xAb-gA,Jn_ylywQBjc,eOs6_LWUTqI,W6VDGjct-SA,vGk3U6oxPEk,fAwidglIh1I,kLW8F5CvPEA,9mgmInhRApw,FKjXa_chcls,MbCRhyWxJxQ,1hCDMoZMpu4,2GHijse4fM8,-JdeQIclG6s,A0Q9yY8_9fw,lTL0girlcu4,-4agl-ttFJg,Hph3wj52MOs,wpfh93AsFPs,wpXZF7cDB68,c-cL9EjEMRI,hSEPfunXuao,p86owJ-C3vM,Z3LNKw-rEVI,okEmdL8an_M,NOfE5PpK0rw,IajGJseNxPw,ZQeCa7NYbF0,HdW2EkndWVM,9BsglYDjNoE,-Jimu67PR_k)** *(Click link, then click '+ Save' on YouTube)*
-- 🎬 **[Open & Save Full Playlist on YouTube (Part 2)](https://www.youtube.com/watch_videos?video_ids=KOl7gNYuEiA,x6YgezFow9o,77_PWTLDD9M,g1cA34BgTWc,AigGXqbxxS0,NpCjt0Ohaig)** *(Click link, then click '+ Save' on YouTube)*
+- 🎬 **[Open & Save Full Playlist on YouTube (Part 2)](https://www.youtube.com/watch_videos?video_ids=ujv5HsmnRec,KOl7gNYuEiA,x6YgezFow9o,sQI1fBS8cDY,nsn9fn4UTv4,I7yd1dOkDmk,a5GrixtqTIk,v34W1daSI4Y,2g0cmis3mCQ,3Pm63p4QDJo,v-uGs1HFeKk,H2yCzGaPyqg,yTDIlLeGAoE,YNdIv5iB4sk,77_PWTLDD9M,g1cA34BgTWc,AigGXqbxxS0,NpCjt0Ohaig)** *(Click link, then click '+ Save' on YouTube)*
 
 - ### 📂 কিভাবে কোর্সটি শেষ হবে ও ক্লাস এবং এক্সাম সিস্টেম দেখুন
   - **লাইভ ও রেকর্ড ক্লাস করার নিয়ম এবং এক্সাম সিস্টেম দেখুন** — [📺 YouTube Class](https://www.youtube.com/watch?v=p8LmiVnknIo)
@@ -23,6 +23,7 @@
   - **ব্যাকরণ : ভাষা, ভাষার উৎপত্তি, লিপির উৎপত্তি, ভাষারীতি, ভাষা বিষয়ক গ্রন্থ, শব্দ** — [📺 YouTube Class](https://www.youtube.com/watch?v=VhzvQGWUjsA) | [📁 Google Drive Notes](https://drive.google.com/drive/folders/1kBFmRY8bCdvUN4DHxkSjUxhZFKIG6fdo?usp=drive_link) | [🔴 Live Class](https://youtube.com/live/VhzvQGWUjsA?feature=share)
   - **বাংলা ১ম পত্র : বাঙ্গালার নব্য লেখকদিগের প্রতি নিবেদন, অপরিচিতা** — [📺 YouTube Class](https://www.youtube.com/watch?v=j8V8R5UkcR0) | [📁 Google Drive Notes](https://drive.google.com/drive/folders/18yPel5vgmibT6ncm1eQFvgg39cF0Z2zt?usp=drive_link) | [🔴 Live Class](https://youtube.com/live/j8V8R5UkcR0?feature=share)
   - **English 1st Paper : Unit One: Education and Life** — [📺 YouTube Class](https://www.youtube.com/watch?v=VIkxroK9OIM) | [📁 Google Drive Notes](https://drive.google.com/drive/folders/19yr6m-Tf9vQbhMdVRJZrvTtkytGkbGCE?usp=drive_link) | [🔴 Live Class](https://www.youtube.com/live/VIkxroK9OIM?si=OK0zDS0exI2W8NTB)
+  - ### 📂 লেকচার-০১ নির্ভর ১০০ মার্কের ডেইলি অ্যাডভান্সড প্রাকটিস
   - **সাধারণ জ্ঞান : বাংলাদেশের অর্থনীতি** — [📺 YouTube Class](https://www.youtube.com/watch?v=leNz_Cg9Zwg) | [📁 Google Drive Notes](https://drive.google.com/drive/folders/1fe77WUmqfx5vVe8ZfY1yu9CjVAVMUOSG?usp=drive_link) | [🔴 Live Class](https://youtube.com/live/leNz_Cg9Zwg?feature=share)
   - ### 📂 লেকচার-০১ নির্ভর ১০০ মার্কের এক্সাম দিন
 - ### 📂 লেকচার-০২ টপিক
@@ -83,29 +84,29 @@
   - **সাধারণ জ্ঞান : সিপাহী বিদ্রোহ থেকে ১৯৪৭ এর দেশভাগ ও ১৯৫২ এর ভাষা আন্দোলন সাল থেকে মুক্তিযুদ্ধ** — [📺 YouTube Class](https://www.youtube.com/watch?v=9BsglYDjNoE) | [📁 Google Drive Notes](https://drive.google.com/drive/folders/14A7lPMDjP-iXlKtHULgctZw_31oE1hqk?usp=drive_link) | [🔴 Live Class](https://youtube.com/live/9BsglYDjNoE?feature=share)
   - **English 1st Paper : Unit Ten: Lifestyle** — [📺 YouTube Class](https://www.youtube.com/watch?v=-Jimu67PR_k) | [📁 Google Drive Notes](https://drive.google.com/file/d/1qFD9OH5ool9T-vgVNHylE_yM9EvnJfR4/view?usp=drivesdk)
 - ### 📂 লেকচার-১১ টপিক
-  - ### 📂 বাংলা ১ম পত্র : তাহারেই পড়ে মনে, প্রত্যাবর্তনের লজ্জা
+  - **বাংলা ১ম পত্র : তাহারেই পড়ে মনে, প্রত্যাবর্তনের লজ্জা** — [📺 YouTube Class](https://www.youtube.com/watch?v=ujv5HsmnRec)
   - **ব্যাকরণ : বচন ও সংখ্যাবাচক শব্দ, পদক্রম** — [📺 YouTube Class](https://www.youtube.com/watch?v=KOl7gNYuEiA) | [📁 Google Drive Notes](https://drive.google.com/drive/folders/1mW4tjkXGXa7kMcRpGWh6qce8QjJEvu9n?usp=drive_link) | [🔴 Live Class](https://youtube.com/live/KOl7gNYuEiA?feature=share)
   - **English Grammar : Verb, Inversion of Verb, Interjection** — [📺 YouTube Class](https://www.youtube.com/watch?v=x6YgezFow9o) | [📁 Google Drive Notes](https://drive.google.com/drive/folders/1Vmr--KTv6oNfLUElXL5_rWKislN0tx9r?usp=drive_link) | [🔴 Live Class](https://youtube.com/live/x6YgezFow9o?feature=share)
-  - ### 📂 সাধারণ জ্ঞান : পরিবেশ ইস্যু ও কূটনীতি: পরিবেশ বিষয়ক - দিবস, চুক্তি, সম্মেলন ও কনভেনশন, সংস্থা
-  - ### 📂 English 1st Paper : Unit Eleven : Peace and Conflict
+  - **English 1st Paper : Unit Eleven : Peace and Conflict** — [📺 YouTube Class](https://www.youtube.com/watch?v=sQI1fBS8cDY)
+  - **সাধারণ জ্ঞান : পরিবেশ ইস্যু ও কূটনীতি: পরিবেশ বিষয়ক - দিবস, চুক্তি, সম্মেলন ও কনভেনশন, সংস্থা** — [📺 YouTube Class](https://www.youtube.com/watch?v=nsn9fn4UTv4)
 - ### 📂 লেকচার-১২ টপিক
-  - ### 📂 বাংলা ১ম পত্র : আঠারো বছর বয়স
-  - **ব্যাকরণ : ক্রিয়ার কাল ও ভাব/কাল,পুরুষ এবং কালের বিশিষ্ট প্রয়োগ, বাক্য, বাক্য শুদ্ধিকরণ, ভাষার প্রয়োগ-অপপ্রয়োগ** — [📁 Google Drive Notes](https://drive.google.com/drive/folders/1FviDR2orfv8tGkylZjOhIWFuuCRLyakf?usp=drive_link)
-  - **English Grammar : Right form of verbs** — [📁 Google Drive Notes](https://drive.google.com/drive/folders/1SpSUnnUJ4BQKEnsjQsnVGkvSQvzpz6dH?usp=drive_link)
-  - ### 📂 সাধারণ জ্ঞান : জাতিসংঘ: জাতিসংঘের অঙ্গ সংস্থা, জাতিসংঘের ফান্ড ও প্রোগ্রাম, জাতিসংঘ ও বাংলাদেশ
-  - ### 📂 English 1st Paper : Unit Twelve: Environment and Nature
+  - **বাংলা ১ম পত্র : আঠারো বছর বয়স** — [📺 YouTube Class](https://www.youtube.com/watch?v=I7yd1dOkDmk) | [🔴 Live Class](https://youtube.com/live/I7yd1dOkDmk?feature=share)
+  - **ব্যাকরণ : ক্রিয়ার কাল ও ভাব/কাল,পুরুষ এবং কালের বিশিষ্ট প্রয়োগ, বাক্য, বাক্য শুদ্ধিকরণ, ভাষার প্রয়োগ-অপপ্রয়োগ** — [📺 YouTube Class](https://www.youtube.com/watch?v=a5GrixtqTIk) | [📁 Google Drive Notes](https://drive.google.com/drive/folders/1FviDR2orfv8tGkylZjOhIWFuuCRLyakf?usp=drive_link)
+  - **English Grammar : Right form of verbs** — [📺 YouTube Class](https://www.youtube.com/watch?v=v34W1daSI4Y) | [📁 Google Drive Notes](https://drive.google.com/drive/folders/1SpSUnnUJ4BQKEnsjQsnVGkvSQvzpz6dH?usp=drive_link) | [🔴 Live Class](https://youtube.com/live/v34W1daSI4Y?feature=share)
+  - **সাধারণ জ্ঞান : জাতিসংঘ: জাতিসংঘের অঙ্গ সংস্থা, জাতিসংঘের ফান্ড ও প্রোগ্রাম, জাতিসংঘ ও বাংলাদেশ** — [📺 YouTube Class](https://www.youtube.com/watch?v=2g0cmis3mCQ) | [📁 Google Drive Notes](https://drive.google.com/drive/folders/16cHt858kM4w_J9jBUmy70x96HD-miv9w?usp=drive_link) | [🔴 Live Class](https://youtube.com/live/2g0cmis3mCQ?feature=share)
+  - **English 1st Paper : Unit Twelve: Environment and Nature** — [📺 YouTube Class](https://www.youtube.com/watch?v=3Pm63p4QDJo) | [🔴 Live Class](https://youtube.com/live/3Pm63p4QDJo?feature=share)
 - ### 📂 লেকচার-১৩ টপিক
   - ### 📂 বাংলা ১ম পত্র : ফেব্রুয়ারি ১৯৬৯
-  - ### 📂 ব্যাকরণ : কারক ও বিভক্তি
-  - **English Grammar : Subject Verb agreement** — [📁 Google Drive Notes](https://drive.google.com/drive/folders/1cz5P59DCJx02GpclvBEA1UaGznhxYfim?usp=drive_link)
-  - ### 📂 সাধারণ জ্ঞান : পৃথিবীর বিভিন্ন আঞ্চলিক সংস্থা, অর্থনৈতিক প্রতিষ্ঠানাদি, রাজনৈতিক প্রতিষ্ঠানাদি, সেবা  সংস্থা
+  - **ব্যাকরণ : কারক ও বিভক্তি** — [🔴 Live Class](https://youtube.com/live/VdBPFknwi-Q?feature=share)
+  - **English Grammar : Subject Verb agreement** — [📺 YouTube Class](https://www.youtube.com/watch?v=v-uGs1HFeKk) | [📁 Google Drive Notes](https://drive.google.com/drive/folders/1cz5P59DCJx02GpclvBEA1UaGznhxYfim?usp=drive_link) | [🔴 Live Class](https://youtube.com/live/v-uGs1HFeKk?feature=share)
+  - **সাধারণ জ্ঞান : পৃথিবীর বিভিন্ন আঞ্চলিক সংস্থা, অর্থনৈতিক প্রতিষ্ঠানাদি, রাজনৈতিক প্রতিষ্ঠানাদি, সেবা  সংস্থা** — [📺 YouTube Class](https://www.youtube.com/watch?v=H2yCzGaPyqg) | [📁 Google Drive Notes](https://drive.google.com/drive/folders/13Q4K_lt5lLaMAuWfwn1fRsbf1Im3gi7B?usp=drive_link) | [🔴 Live Class](https://youtube.com/live/H2yCzGaPyqg?feature=share)
 - ### 📂 লেকচার-১৪ টপিক
   - ### 📂 বাংলা ১ম পত্র : আমি কিংবদন্তির কথা বলছি
   - ### 📂 ব্যাকরণ : বাচ্য ও উক্তি, বিরাম চিহ্ন
-  - **English Grammar : Conjunction & Linkers, Dangling Modifier, Tag question** — [📁 Google Drive Notes](https://drive.google.com/drive/folders/1H_TpxAwKFw7CfohIxwAfau-4Ym0UcN0G?usp=drive_link)
+  - **English Grammar : Conjunction & Linkers, Dangling Modifier, Tag question** — [📺 YouTube Class](https://www.youtube.com/watch?v=yTDIlLeGAoE) | [📁 Google Drive Notes](https://drive.google.com/drive/folders/1H_TpxAwKFw7CfohIxwAfau-4Ym0UcN0G?usp=drive_link) | [🔴 Live Class](https://meet.google.com/pyd-wnfr-fvw)
   - ### 📂 সাধারণ জ্ঞান : ভূ-রাজনৈতি: প্রাণালী ও চ্যানেল, ভৌগোলিক সীমারেখা ও লাইন এবং বিরোধ পূর্ণ সীমান্ত, দ্বীপ ও ভূখন্ড, বিখ্যাত বন্দর, আলোচিত অঞ্চল
 - ### 📂 লেকচার-১৫ টপিক
-  - **English Grammar : WH Question & Embedded Question, Correction-Sentence, Pin Point Error** — [📁 Google Drive Notes](https://drive.google.com/drive/folders/1hhBOEAAMWTQ2PW0tjGwQA5s_7ZMY3I8Y?usp=drive_link)
+  - **English Grammar : WH Question & Embedded Question, Correction-Sentence, Pin Point Error** — [📺 YouTube Class](https://www.youtube.com/watch?v=YNdIv5iB4sk) | [📁 Google Drive Notes](https://drive.google.com/drive/folders/1hhBOEAAMWTQ2PW0tjGwQA5s_7ZMY3I8Y?usp=drive_link)
   - ### 📂 সহপাঠ উপন্যাস : লালসালু
   - ### 📂 সাধারণ জ্ঞান : বিশ্ব সভ্যতা
 - ### 📂 লেকচার-১৬ টপিক
@@ -365,7 +366,37 @@
 
 ---
 
-## 4. ইংরেজি ও ব্যাকরণ ২টি One Shot ক্লাসের PDF কিনুন (প্রিন্ট করা যাবে)
+## 4. ঢাবি খ ইউনিট লিখিত ফ্রি প্রোগ্রাম
+
+**Intro Video:** [Watch on YouTube](https://www.youtube.com/watch?v=vbBYvc6ZA0I) | **Guide Video:** [Watch on YouTube](https://www.youtube.com/watch?v=vbBYvc6ZA0I) | **Class Routine PDF:** [Open Routine PDF](https://res.cloudinary.com/dxyckwlsn/raw/upload/v1786191338/-------------B-UNIT--------------------------------1786191335703.pdf.pdf)
+
+- **Total Videos:** 0
+- **Total Material Links:** 0
+
+- ### 📂 লেকচার-০১ : বাংলায় ও ইংলিশ ঢাবি খ ইউনিটের লিখিত প্রশ্ন প্যাটার্ন বিশ্লেষণ
+  - ### 📂 বাংলায় ও ইংলিশ ঢাবি খ ইউনিটের লিখিত প্রশ্ন প্যাটার্ন বিশ্লেষণ
+- ### 📂 লেকচার-০২ : শব্দ, বানান ও ভাষারীতি শুদ্ধিকরণ (বাংলা লিখিত)
+  - ### 📂 শব্দ, বানান ও ভাষারীতি শুদ্ধিকরণ (বাংলা লিখিত)
+- ### 📂 লেকচার-০৩ : Sentence Making with Given Words/Phrases (English Written)
+  - ### 📂 Sentence Making with Given Words/Phrases (English Written)
+- ### 📂 লেকচার-০৪ : সারাংশ ও সারমর্ম লিখন (বাংলা লিখিত)
+  - ### 📂 সারাংশ ও সারমর্ম লিখন (বাংলা লিখিত)
+- ### 📂 লেকচার-০৫ : Paragraph Writing (English Written)
+  - ### 📂 Paragraph Writing (English Written)
+- ### 📂 লেকচার-০৬ : অনুচ্ছেদ থেকে সংক্ষিপ্ত প্রশ্নের উত্তর (বাংলা লিখিত)
+  - ### 📂 অনুচ্ছেদ থেকে সংক্ষিপ্ত প্রশ্নের উত্তর (বাংলা লিখিত)
+- ### 📂 লেকচার-০৭ : Proverb Explanation / Expansion (English Written)
+  - ### 📂 Proverb Explanation / Expansion (English Written)
+- ### 📂 লেকচার-০৮ : সারাংশ ও সারমর্ম লিখন (বাংলা লিখিত)
+  - ### 📂 সারাংশ ও সারমর্ম লিখন (বাংলা লিখিত)
+- ### 📂 লেকচার-০৯ : Grammar Test : Transformation of Sentences (English Written)
+  - ### 📂 Grammar Test : Transformation of Sentences (English Written)
+- ### 📂 লেকচার-১০ : বাগধারা, প্রবাদ-প্রবচন ও বাক্যরচনা (বাংলা লিখিত)
+  - ### 📂 বাগধারা, প্রবাদ-প্রবচন ও বাক্যরচনা (বাংলা লিখিত)
+
+---
+
+## 5. ইংরেজি ও ব্যাকরণ ২টি One Shot ক্লাসের PDF কিনুন (প্রিন্ট করা যাবে)
 
 **Intro Video:** [Watch on YouTube](https://www.youtube.com/watch?v=SkIFUKKgiro)
 
@@ -380,7 +411,7 @@
 
 ---
 
-## 5. ভার্সিটি খ ও বিভাগ পরিবর্তন MATH + IQ ফুল কোর্স
+## 6. ভার্সিটি খ ও বিভাগ পরিবর্তন MATH + IQ ফুল কোর্স
 
 **Guide Video:** [Watch on YouTube](https://www.youtube.com/watch?v=SkIFUKKgiro)
 
