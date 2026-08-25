@@ -142,7 +142,7 @@ def load_youtube_session() -> tuple[requests.Session, dict]:
     return session, headers
 
 
-def create_youtube_playlist(session: requests.Session, headers: dict, title: str, video_ids: list[str], privacy: str = "PRIVATE") -> str | None:
+def create_youtube_playlist(session: requests.Session, headers: dict, title: str, video_ids: list[str], privacy: str = "UNLISTED") -> str | None:
     """
     Creates a YouTube playlist with the given title and all video IDs in a single operation.
     """
@@ -301,11 +301,11 @@ def main():
             print("    [!] No videos found. Skipping.")
             continue
 
-        playlist_id = create_youtube_playlist(session, headers, title, vids, privacy="PRIVATE")
+        playlist_id = create_youtube_playlist(session, headers, title, vids, privacy="UNLISTED")
 
         if playlist_id:
             playlist_url = f"https://www.youtube.com/playlist?list={playlist_id}"
-            print(f"    [🎉 SUCCESS!] Playlist Created!")
+            print(f"    [🎉 SUCCESS!] Playlist Created! (Unlisted)")
             print(f"    Playlist ID : {playlist_id}")
             print(f"    Direct URL  : {playlist_url}")
             success_count += 1
