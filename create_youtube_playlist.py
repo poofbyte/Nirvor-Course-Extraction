@@ -1,9 +1,9 @@
 """
-YouTube Course Playlist Creator
-================================
+YouTube Course & BDSOE Playlist Creator
+========================================
 Automatically creates complete YouTube playlists for your Nirvor courses
-and adds ALL videos (100% of all lectures) to your YouTube account instantly
-using your youtube_cookies.json.
+and BDSOE subjects (Bangla, English, GK, Math & IQ, Guideline) using your
+youtube_cookies.json.
 
 No browser windows, no login popups — creates playlists in seconds!
 """
@@ -21,20 +21,24 @@ if sys.platform == "win32":
     sys.stdout.reconfigure(encoding="utf-8")
 
 SCRIPT_DIR = Path(__file__).resolve().parent
-DATA_FILE = SCRIPT_DIR / "nirvor_data.json"
+NIRVOR_DATA_FILE = SCRIPT_DIR / "nirvor_data.json"
+BDSOE_DATA_FILE = SCRIPT_DIR / "bdsoe_full_database.json"
 COOKIE_FILE = SCRIPT_DIR / "youtube_cookies.json"
 
 
-def load_courses() -> list[dict]:
-    if not DATA_FILE.exists():
-        print(f"[!] {DATA_FILE.name} not found. Please run 'python app.py' first.")
-        sys.exit(1)
-    with open(DATA_FILE, "r", encoding="utf-8") as f:
-        return json.load(f)
+def load_nirvor_courses() -> list[dict]:
+    if not NIRVOR_DATA_FILE.exists():
+        return []
+    try:
+        with open(NIRVOR_DATA_FILE, "r", encoding="utf-8") as f:
+            return json.load(f)
+    except Exception as e:
+        print(f"[!] Warning loading {NIRVOR_DATA_FILE.name}: {e}")
+        return []
 
 
-def get_course_videos(course: dict) -> list[dict]:
-    """Collects all videos in hierarchical order from a course."""
+def get_nirvor_course_videos(course: dict) -> list[dict]:
+    """Collects all videos in hierarchical order from a Nirvor course."""
     videos = []
     seen_ids = set()
 
@@ -58,6 +62,41 @@ def get_course_videos(course: dict) -> list[dict]:
 
     collect(course.get("tree", []))
     return videos
+
+
+def load_bdsoe_subjects() -> dict[str, list[dict]]:
+    """Loads and groups BDSOE classes by subject, sorted chronologically."""
+    if not BDSOE_DATA_FILE.exists():
+        return {}
+    try:
+        with open(BDSOE_DATA_FILE, "r", encoding="utf-8") as f:
+            data = json.load(f)
+        
+        subjects: dict[str, list[dict]] = {}
+        for item in data:
+            sname = item.get("subject_name", "General").strip()
+            if sname not in subjects:
+                subjects[sname] = []
+            
+            vid = item.get("youtube_id", "").strip()
+            if vid:
+                subjects[sname].append({
+                    "title": item.get("class_name", "").strip(),
+                    "video_id": vid,
+                    "video_url": item.get("youtube_url") or f"https://www.youtube.com/watch?v={vid}",
+                    "class_date": item.get("class_date") or "",
+                    "slide_url": item.get("slide_url") or "",
+                    "total_view": item.get("total_view", 0),
+                })
+        
+        # Sort classes chronologically (oldest date first -> Class 01 first)
+        for sname in subjects:
+            subjects[sname].sort(key=lambda x: x.get("class_date", ""))
+            
+        return subjects
+    except Exception as e:
+        print(f"[!] Warning loading {BDSOE_DATA_FILE.name}: {e}")
+        return {}
 
 
 def load_youtube_session() -> tuple[requests.Session, dict]:
@@ -109,7 +148,6 @@ def create_youtube_playlist(session: requests.Session, headers: dict, title: str
     """
     url = "https://www.youtube.com/youtubei/v1/playlist/create"
 
-    # We can pass up to 100 video IDs on creation, and add any remainder via edit_playlist
     initial_vids = video_ids[:100]
     remaining_vids = video_ids[100:]
 
@@ -133,7 +171,6 @@ def create_youtube_playlist(session: requests.Session, headers: dict, title: str
             data = r.json()
             playlist_id = data.get("playlistId")
             if playlist_id:
-                # If there are more than 100 videos, add the remaining in batches
                 if remaining_vids:
                     add_remaining_videos(session, headers, playlist_id, remaining_vids)
                 return playlist_id
@@ -173,66 +210,112 @@ def add_remaining_videos(session: requests.Session, headers: dict, playlist_id: 
 
 
 def main():
-    print("=" * 70)
-    print(" NIRVOR -> YOUTUBE PLAYLIST CREATOR (Instant Cookie Mode)")
-    print("=" * 70)
+    print("=" * 75)
+    print(" NIRVOR & BDSOE -> YOUTUBE PLAYLIST CREATOR (Instant Cookie Mode)")
+    print("=" * 75)
 
-    courses = load_courses()
+    nirvor_courses = load_nirvor_courses()
+    bdsoe_subjects = load_bdsoe_subjects()
     session, headers = load_youtube_session()
-    print(f"[✓] Loaded YouTube cookies from {COOKIE_FILE.name}\n")
+    print(f"[✓] Authenticated via YouTube cookies ({COOKIE_FILE.name})\n")
 
-    print("Select a course to create a full YouTube playlist for:\n")
-    for i, c in enumerate(courses, start=1):
-        vids = get_course_videos(c)
-        print(f"  [{i}] {c.get('title')} ({len(vids)} videos)")
+    menu_map = {}
+    idx = 1
 
-    print(f"  [A] All Courses (Create playlists for all {len(courses)} courses)")
-    print(f"  [Q] Quit")
-    print("-" * 70)
+    # 1. Nirvor Courses
+    if nirvor_courses:
+        print("📁 NIRVOR COURSES:")
+        for c in nirvor_courses:
+            vids = get_nirvor_course_videos(c)
+            key = str(idx)
+            menu_map[key] = {
+                "type": "nirvor",
+                "title": c.get("title", f"Course {idx}").strip(),
+                "videos": [v["video_id"] for v in vids],
+                "count": len(vids),
+            }
+            print(f"  [{key}] {menu_map[key]['title']} ({len(vids)} videos)")
+            idx += 1
+        print(f"  [NA] All Nirvor Courses ({len(nirvor_courses)} playlists)\n")
 
-    choice = input("\nEnter choice (1-5 or A): ").strip()
+    # 2. BDSOE Subjects
+    if bdsoe_subjects:
+        print("📁 BDSOE DATABASE (By Subject):")
+        bd_keys = []
+        for sname, classes in bdsoe_subjects.items():
+            key = f"B{len(bd_keys) + 1}"
+            bd_keys.append(key)
+            pl_title = f"BDSOE - {sname}"
+            menu_map[key.lower()] = {
+                "type": "bdsoe",
+                "title": pl_title,
+                "videos": [c["video_id"] for c in classes],
+                "count": len(classes),
+            }
+            print(f"  [{key}] {pl_title} ({len(classes)} classes)")
+        print(f"  [BA] All BDSOE Subjects ({len(bdsoe_subjects)} playlists)\n")
 
-    if choice.lower() == "q":
+    print("⚡ BATCH OPTIONS:")
+    print("  [ALL] Create ALL Playlists (Both Nirvor & BDSOE)")
+    print("  [Q]   Quit")
+    print("-" * 75)
+
+    choice = input("\nEnter choice (e.g. 1, 3, B1, B2, NA, BA, ALL): ").strip().lower()
+
+    if choice == "q":
         return
 
-    selected_courses = []
-    if choice.lower() == "a":
-        selected_courses = courses
-    elif choice.isdigit() and 1 <= int(choice) <= len(courses):
-        selected_courses = [courses[int(choice) - 1]]
+    playlists_to_create = []
+
+    if choice == "all":
+        # All Nirvor + All BDSOE
+        for k, item in menu_map.items():
+            playlists_to_create.append((item["title"], item["videos"]))
+    elif choice in ["na", "a"]:
+        # All Nirvor
+        for k, item in menu_map.items():
+            if item["type"] == "nirvor":
+                playlists_to_create.append((item["title"], item["videos"]))
+    elif choice == "ba":
+        # All BDSOE
+        for k, item in menu_map.items():
+            if item["type"] == "bdsoe":
+                playlists_to_create.append((item["title"], item["videos"]))
+    elif choice in menu_map:
+        item = menu_map[choice]
+        playlists_to_create.append((item["title"], item["videos"]))
     else:
         print("[!] Invalid selection.")
         return
 
-    print("\n" + "=" * 70)
-    print(" CREATING PLAYLISTS ON YOUTUBE")
-    print("=" * 70)
+    print("\n" + "=" * 75)
+    print(f" CREATING {len(playlists_to_create)} PLAYLIST(S) ON YOUTUBE")
+    print("=" * 75)
 
-    for c in selected_courses:
-        title = c.get("title", "Course Playlist").strip()
-        videos = get_course_videos(c)
-        vid_ids = [v["video_id"] for v in videos]
+    success_count = 0
+    for title, vids in playlists_to_create:
+        print(f"\n[*] Creating playlist: '{title}'")
+        print(f"    Total videos: {len(vids)}")
 
-        print(f"\n[*] Creating playlist for: {title}")
-        print(f"    Total videos to include: {len(vid_ids)}")
-
-        if not vid_ids:
-            print("    [!] No videos found in this course. Skipping.")
+        if not vids:
+            print("    [!] No videos found. Skipping.")
             continue
 
-        playlist_id = create_youtube_playlist(session, headers, title, vid_ids, privacy="PRIVATE")
+        playlist_id = create_youtube_playlist(session, headers, title, vids, privacy="PRIVATE")
 
         if playlist_id:
             playlist_url = f"https://www.youtube.com/playlist?list={playlist_id}"
             print(f"    [🎉 SUCCESS!] Playlist Created!")
             print(f"    Playlist ID : {playlist_id}")
             print(f"    Direct URL  : {playlist_url}")
+            success_count += 1
         else:
-            print(f"    [✗] Failed to create playlist for {title}")
+            print(f"    [✗] Failed to create playlist for '{title}'")
 
-    print("\n" + "=" * 70)
-    print(" DONE! Check all your playlists at: https://www.youtube.com/feed/playlists")
-    print("=" * 70)
+    print("\n" + "=" * 75)
+    print(f" COMPLETED! {success_count}/{len(playlists_to_create)} Playlists Created Successfully.")
+    print(" Check your YouTube Library: https://www.youtube.com/feed/playlists")
+    print("=" * 75)
 
 
 if __name__ == "__main__":
