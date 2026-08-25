@@ -8,10 +8,10 @@
 
 **Class Routine PDF:** [Open Routine PDF](https://res.cloudinary.com/dxyckwlsn/raw/upload/v1784295852/2nd-Time-Routine-2026-27-Live-And-Exam-Batch--B-UN-1784295850894.pdf.pdf)
 
-- **Total Videos:** 68
-- **Total Material Links:** 42
+- **Total Videos:** 70
+- **Total Material Links:** 43
 - 🎬 **[Open & Save Full Playlist on YouTube (Part 1)](https://www.youtube.com/watch_videos?video_ids=p8LmiVnknIo,OJOrYi-OPXI,VhzvQGWUjsA,j8V8R5UkcR0,VIkxroK9OIM,leNz_Cg9Zwg,DvbTfqjf2m4,qEe9dPHs79U,444V4xv3-Js,y71jzOy5_fE,S0ltDjcuc0U,AdvA3SW9u7g,B-4SLSHFhkc,nUzYWFs2m90,6qPGi5R9ZU4,wdfmREetnaU,U_lf_3xCxeo,_DGMOgNHpNA,eXR8q17Xxa4,H0JAUC5I1jk,h3Cv2xAb-gA,Jn_ylywQBjc,eOs6_LWUTqI,W6VDGjct-SA,vGk3U6oxPEk,fAwidglIh1I,kLW8F5CvPEA,9mgmInhRApw,FKjXa_chcls,MbCRhyWxJxQ,1hCDMoZMpu4,2GHijse4fM8,-JdeQIclG6s,A0Q9yY8_9fw,lTL0girlcu4,-4agl-ttFJg,Hph3wj52MOs,wpfh93AsFPs,wpXZF7cDB68,c-cL9EjEMRI,hSEPfunXuao,p86owJ-C3vM,Z3LNKw-rEVI,okEmdL8an_M,NOfE5PpK0rw,IajGJseNxPw,ZQeCa7NYbF0,HdW2EkndWVM,9BsglYDjNoE,-Jimu67PR_k)** *(Click link, then click '+ Save' on YouTube)*
-- 🎬 **[Open & Save Full Playlist on YouTube (Part 2)](https://www.youtube.com/watch_videos?video_ids=ujv5HsmnRec,KOl7gNYuEiA,x6YgezFow9o,sQI1fBS8cDY,nsn9fn4UTv4,I7yd1dOkDmk,a5GrixtqTIk,v34W1daSI4Y,2g0cmis3mCQ,3Pm63p4QDJo,v-uGs1HFeKk,H2yCzGaPyqg,yTDIlLeGAoE,YNdIv5iB4sk,77_PWTLDD9M,g1cA34BgTWc,AigGXqbxxS0,NpCjt0Ohaig)** *(Click link, then click '+ Save' on YouTube)*
+- 🎬 **[Open & Save Full Playlist on YouTube (Part 2)](https://www.youtube.com/watch_videos?video_ids=ujv5HsmnRec,KOl7gNYuEiA,x6YgezFow9o,sQI1fBS8cDY,nsn9fn4UTv4,I7yd1dOkDmk,a5GrixtqTIk,v34W1daSI4Y,2g0cmis3mCQ,3Pm63p4QDJo,VdBPFknwi-Q,v-uGs1HFeKk,H2yCzGaPyqg,yTDIlLeGAoE,4T2JU7hCHZ8,YNdIv5iB4sk,77_PWTLDD9M,g1cA34BgTWc,AigGXqbxxS0,NpCjt0Ohaig)** *(Click link, then click '+ Save' on YouTube)*
 
 - ### 📂 কিভাবে কোর্সটি শেষ হবে ও ক্লাস এবং এক্সাম সিস্টেম দেখুন
   - **লাইভ ও রেকর্ড ক্লাস করার নিয়ম এবং এক্সাম সিস্টেম দেখুন** — [📺 YouTube Class](https://www.youtube.com/watch?v=p8LmiVnknIo)
@@ -97,14 +97,14 @@
   - **English 1st Paper : Unit Twelve: Environment and Nature** — [📺 YouTube Class](https://www.youtube.com/watch?v=3Pm63p4QDJo) | [🔴 Live Class](https://youtube.com/live/3Pm63p4QDJo?feature=share)
 - ### 📂 লেকচার-১৩ টপিক
   - ### 📂 বাংলা ১ম পত্র : ফেব্রুয়ারি ১৯৬৯
-  - **ব্যাকরণ : কারক ও বিভক্তি** — [🔴 Live Class](https://youtube.com/live/VdBPFknwi-Q?feature=share)
+  - **ব্যাকরণ : কারক ও বিভক্তি** — [📺 YouTube Class](https://www.youtube.com/watch?v=VdBPFknwi-Q) | [📁 Google Drive Notes](https://drive.google.com/drive/folders/18LFLmKYjCEw8eWppWzueZwY4p9oC3Ff9?usp=drive_link)
   - **English Grammar : Subject Verb agreement** — [📺 YouTube Class](https://www.youtube.com/watch?v=v-uGs1HFeKk) | [📁 Google Drive Notes](https://drive.google.com/drive/folders/1cz5P59DCJx02GpclvBEA1UaGznhxYfim?usp=drive_link) | [🔴 Live Class](https://youtube.com/live/v-uGs1HFeKk?feature=share)
   - **সাধারণ জ্ঞান : পৃথিবীর বিভিন্ন আঞ্চলিক সংস্থা, অর্থনৈতিক প্রতিষ্ঠানাদি, রাজনৈতিক প্রতিষ্ঠানাদি, সেবা  সংস্থা** — [📺 YouTube Class](https://www.youtube.com/watch?v=H2yCzGaPyqg) | [📁 Google Drive Notes](https://drive.google.com/drive/folders/13Q4K_lt5lLaMAuWfwn1fRsbf1Im3gi7B?usp=drive_link) | [🔴 Live Class](https://youtube.com/live/H2yCzGaPyqg?feature=share)
 - ### 📂 লেকচার-১৪ টপিক
   - ### 📂 বাংলা ১ম পত্র : আমি কিংবদন্তির কথা বলছি
   - ### 📂 ব্যাকরণ : বাচ্য ও উক্তি, বিরাম চিহ্ন
   - **English Grammar : Conjunction & Linkers, Dangling Modifier, Tag question** — [📺 YouTube Class](https://www.youtube.com/watch?v=yTDIlLeGAoE) | [📁 Google Drive Notes](https://drive.google.com/drive/folders/1H_TpxAwKFw7CfohIxwAfau-4Ym0UcN0G?usp=drive_link) | [🔴 Live Class](https://meet.google.com/pyd-wnfr-fvw)
-  - ### 📂 সাধারণ জ্ঞান : ভূ-রাজনৈতি: প্রাণালী ও চ্যানেল, ভৌগোলিক সীমারেখা ও লাইন এবং বিরোধ পূর্ণ সীমান্ত, দ্বীপ ও ভূখন্ড, বিখ্যাত বন্দর, আলোচিত অঞ্চল
+  - **সাধারণ জ্ঞান : ভূ-রাজনৈতি: প্রাণালী ও চ্যানেল, ভৌগোলিক সীমারেখা ও লাইন এবং বিরোধ পূর্ণ সীমান্ত, দ্বীপ ও ভূখন্ড, বিখ্যাত বন্দর, আলোচিত অঞ্চল** — [📺 YouTube Class](https://www.youtube.com/watch?v=4T2JU7hCHZ8) | [🔴 Live Class](https://youtube.com/live/4T2JU7hCHZ8?feature=share)
 - ### 📂 লেকচার-১৫ টপিক
   - **English Grammar : WH Question & Embedded Question, Correction-Sentence, Pin Point Error** — [📺 YouTube Class](https://www.youtube.com/watch?v=YNdIv5iB4sk) | [📁 Google Drive Notes](https://drive.google.com/drive/folders/1hhBOEAAMWTQ2PW0tjGwQA5s_7ZMY3I8Y?usp=drive_link)
   - ### 📂 সহপাঠ উপন্যাস : লালসালু
